@@ -90,7 +90,7 @@ class _FeedbackBottomSheetWidgetState extends State<FeedbackBottomSheetWidget> {
                               0.0, 12.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              '1yod7mp2' /* Send Anonymous Feedback */,
+                              '1yod7mp2' /* Anonim Geri Bildirim Gönderin */,
                             ),
                             style: FlutterFlowTheme.of(context)
                                 .titleLarge
@@ -118,7 +118,7 @@ class _FeedbackBottomSheetWidgetState extends State<FeedbackBottomSheetWidget> {
                               obscureText: false,
                               decoration: InputDecoration(
                                 hintText: FFLocalizations.of(context).getText(
-                                  '224uodu6' /* Type something... */,
+                                  '224uodu6' /* Bir şeyler yazın... */,
                                 ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodySmall
@@ -189,7 +189,7 @@ class _FeedbackBottomSheetWidgetState extends State<FeedbackBottomSheetWidget> {
                           child: FFButtonWidget(
                             onPressed: () async {
                               logFirebaseEvent(
-                                  'FEEDBACK_BOTTOM_SHEET_SEND_FEEDBACK_BTN_');
+                                  'FEEDBACK_BOTTOM_SHEET_GERI_BILDIRIM_GNDE');
                               logFirebaseEvent('Button_validate_form');
                               if (_model.formKey.currentState == null ||
                                   !_model.formKey.currentState!.validate()) {
@@ -210,7 +210,7 @@ class _FeedbackBottomSheetWidgetState extends State<FeedbackBottomSheetWidget> {
                               Navigator.pop(context);
                             },
                             text: FFLocalizations.of(context).getText(
-                              'd2v8g821' /* Send Feedback */,
+                              'd2v8g821' /* Geri Bildirim Gönder */,
                             ),
                             options: FFButtonOptions(
                               width: double.infinity,

@@ -89,7 +89,7 @@ class _OnboardingCreateAccountWidgetState
                             const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            'd9kxnl4m' /* Create an account */,
+                            'd9kxnl4m' /* Hesap Oluştur */,
                           ),
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
@@ -595,7 +595,7 @@ class _OnboardingCreateAccountWidgetState
                                           TextSpan(
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              '2pblnw75' /* Kullanım Koşulları */,
+                                              '2pblnw75' /* Kullanım Koşullarını */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
@@ -605,6 +605,7 @@ class _OnboardingCreateAccountWidgetState
                                                               context)
                                                           .bodySmallFamily,
                                                   letterSpacing: 0.0,
+                                                  fontStyle: FontStyle.italic,
                                                   decoration:
                                                       TextDecoration.underline,
                                                   useGoogleFonts: GoogleFonts
@@ -618,7 +619,7 @@ class _OnboardingCreateAccountWidgetState
                                           TextSpan(
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              'bhixtav8' /* . */,
+                                              'bhixtav8' /*  onaylamış olursunuz. */,
                                             ),
                                             style: const TextStyle(),
                                           )

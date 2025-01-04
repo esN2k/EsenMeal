@@ -184,7 +184,7 @@ class _MealDetailsWidgetState extends State<MealDetailsWidget>
                                         child: Text(
                                           valueOrDefault<String>(
                                             widget.mealRef?.mealName,
-                                            'Meal Name',
+                                            'Yemek İsmi',
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .displaySmall
@@ -354,7 +354,7 @@ class _MealDetailsWidgetState extends State<MealDetailsWidget>
                                           widget.mealRef?.mealCalories
                                               .toString(),
                                           '0',
-                                        )} calories',
+                                        )}kalori',
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge
                                             .override(

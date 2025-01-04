@@ -207,7 +207,7 @@ class _SplashWidgetState extends State<SplashWidget> {
                                       TextSpan(
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          '4wjpihri' /* Üye Misin? */,
+                                          '4wjpihri' /* Üye Misin?  */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall

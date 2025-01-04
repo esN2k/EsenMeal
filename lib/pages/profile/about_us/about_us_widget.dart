@@ -125,12 +125,9 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                                         ),
                                   ),
                                 ),
-                                if (columnCompanyInformationRecord
-                                            ?.coverImage !=
+                                if (columnCompanyInformationRecord?.logo !=
                                         null &&
-                                    columnCompanyInformationRecord
-                                            ?.coverImage !=
-                                        '')
+                                    columnCompanyInformationRecord?.logo != '')
                                   Padding(
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 18.0),
@@ -145,7 +142,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                                           image: Image.network(
                                             valueOrDefault<String>(
                                               columnCompanyInformationRecord
-                                                  ?.coverImage,
+                                                  ?.logo,
                                               'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/meal-planner-3nia1o/assets/uw9p4b649afa/MealPlanner.png',
                                             ),
                                           ).image,
@@ -228,7 +225,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                                   child: Text(
                                     valueOrDefault<String>(
                                       columnCompanyInformationRecord?.name,
-                                      'Company Name',
+                                      'Firmamım İsmi',
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall

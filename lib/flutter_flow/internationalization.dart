@@ -159,7 +159,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Let\'s get started',
     },
     '4wjpihri': {
-      'tr': 'Üye Misin?',
+      'tr': 'Üye Misin? ',
       'en': 'Are you a member?',
     },
     '8lsxlbi9': {
@@ -274,7 +274,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // Onboarding_CreateAccount
   {
     'd9kxnl4m': {
-      'tr': 'Create an account',
+      'tr': 'Hesap Oluştur',
       'en': 'Create an account',
     },
     'dbt4iqx9': {
@@ -318,16 +318,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Create Account',
     },
     '6ongsqy2': {
-      'tr': '“Hesap Oluştur” seçeneğine tıklayarak EsenMeal\'ın',
+      'tr': '“Hesap Oluştur” seçeneğine tıklayarak EsenMeal\'ın\n',
       'en':
           'By clicking on the “Create Account” option, you can sign up for EsenMeal',
     },
     '2pblnw75': {
-      'tr': 'Kullanım Koşulları',
+      'tr': 'Kullanım Koşullarını',
       'en': 'Terms of Use',
     },
     'bhixtav8': {
-      'tr': '.',
+      'tr': ' onaylamış olursunuz.',
       'en': '.',
     },
     'v86fzc5i': {
@@ -536,7 +536,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // EditPreferences
   {
     'lu3dj396': {
-      'tr': 'Diyeti güncellE',
+      'tr': 'Diyeti güncelle',
       'en': 'Update diet',
     },
     '3czgpbc4': {
@@ -593,11 +593,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // feedbackBottomSheet
   {
     '1yod7mp2': {
-      'tr': 'Send Anonymous Feedback',
+      'tr': 'Anonim Geri Bildirim Gönderin',
       'en': 'Send Anonymous Feedback',
     },
     '224uodu6': {
-      'tr': 'Type something...',
+      'tr': 'Bir şeyler yazın...',
       'en': 'Type of thing...',
     },
     'vdzn0jtn': {
@@ -609,7 +609,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Please choose an option from the dropdown',
     },
     'd2v8g821': {
-      'tr': 'Send Feedback',
+      'tr': 'Geri Bildirim Gönder',
       'en': 'Send Feedback',
     },
   },

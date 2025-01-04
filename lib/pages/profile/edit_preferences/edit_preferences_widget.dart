@@ -166,7 +166,7 @@ class _EditPreferencesWidgetState extends State<EditPreferencesWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'lu3dj396' /* Diyeti güncellE */,
+                                                  'lu3dj396' /* Diyeti güncelle */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)

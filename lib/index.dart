@@ -9,8 +9,7 @@ export '/pages/meals/dashboard/dashboard_widget.dart' show DashboardWidget;
 export '/pages/meals/meal_details/meal_details_widget.dart'
     show MealDetailsWidget;
 export '/pages/profile/profile/profile_widget.dart' show ProfileWidget;
-export '/pages/profile/edit_profile/edit_profile_widget.dart'
-    show EditProfileWidget;
+export '/pages/edit_profile/edit_profile_widget.dart' show EditProfileWidget;
 export '/pages/profile/about_us/about_us_widget.dart' show AboutUsWidget;
 export '/pages/profile/eating_preferences/eating_preferences_widget.dart'
     show EatingPreferencesWidget;
