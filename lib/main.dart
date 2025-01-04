@@ -103,8 +103,8 @@ class _MyAppState extends State<MyApp> {
       ],
       locale: _locale,
       supportedLocales: const [
-        Locale('en'),
         Locale('tr'),
+        Locale('en'),
       ],
       theme: ThemeData(
         brightness: Brightness.light,
@@ -171,7 +171,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(
-              '8hmmat3d' /* Meals */,
+              '8hmmat3d' /* Yemekler */,
             ),
             tooltip: '',
           ),
@@ -185,7 +185,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(
-              'upjxgphb' /* Profile */,
+              'upjxgphb' /* Profil */,
             ),
             tooltip: '',
           )

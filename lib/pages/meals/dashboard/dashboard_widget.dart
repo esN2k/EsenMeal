@@ -76,7 +76,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                       children: [
                         Text(
                           FFLocalizations.of(context).getText(
-                            'c4t4o3xf' /* This week's meals */,
+                            'c4t4o3xf' /* Bu haftanın yemekleri */,
                           ),
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
@@ -95,7 +95,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                               0.0, 6.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'ypkv73np' /* Made to order with fresh ingre... */,
+                              'ypkv73np' /* Her hafta taze malzemelerle si... */,
                             ),
                             style: FlutterFlowTheme.of(context)
                                 .labelLarge

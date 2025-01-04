@@ -152,7 +152,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'pb7vd1dr' /* Select your diet */,
+                                                  'pb7vd1dr' /* Diyetinizi seçin */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -238,7 +238,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'amodiz20' /* Any allergies? */,
+                                                  'amodiz20' /* Alerjiniz var mı? */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -355,7 +355,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'm7inv3vo' /* How about dislikes? */,
+                                                  'm7inv3vo' /* Peki ya sevmedikleriniz? */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -475,7 +475,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                         child: FFButtonWidget(
                           onPressed: () async {
                             logFirebaseEvent(
-                                'ONBOARDING_PAGE_CONTINUE_BTN_ON_TAP');
+                                'ONBOARDING_PAGE_DEVAM_ET_BTN_ON_TAP');
                             logFirebaseEvent('Button_haptic_feedback');
                             HapticFeedback.lightImpact();
                             logFirebaseEvent('Button_update_app_state');
@@ -502,7 +502,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                             }
                           },
                           text: FFLocalizations.of(context).getText(
-                            'py1kjc9m' /* Continue */,
+                            'py1kjc9m' /* Devam et */,
                           ),
                           options: FFButtonOptions(
                             width: double.infinity,

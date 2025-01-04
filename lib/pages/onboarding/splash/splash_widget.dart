@@ -146,7 +146,7 @@ class _SplashWidgetState extends State<SplashWidget> {
                         FFButtonWidget(
                           onPressed: () async {
                             logFirebaseEvent(
-                                'SPLASH_PAGE_GET_STARTED_BTN_ON_TAP');
+                                'SPLASH_PAGE_BALAYALIM_BTN_ON_TAP');
                             logFirebaseEvent('Button_haptic_feedback');
                             HapticFeedback.lightImpact();
                             logFirebaseEvent('Button_navigate_to');
@@ -154,7 +154,7 @@ class _SplashWidgetState extends State<SplashWidget> {
                             context.pushNamed('Onboarding_Slideshow');
                           },
                           text: FFLocalizations.of(context).getText(
-                            '31v5xhd9' /* Get Started */,
+                            '31v5xhd9' /* Başlayalım */,
                           ),
                           options: FFButtonOptions(
                             width: double.infinity,
@@ -207,7 +207,7 @@ class _SplashWidgetState extends State<SplashWidget> {
                                       TextSpan(
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          '4wjpihri' /* Already a member?   */,
+                                          '4wjpihri' /* Üye Misin? */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
@@ -227,7 +227,7 @@ class _SplashWidgetState extends State<SplashWidget> {
                                       TextSpan(
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          '8lsxlbi9' /* Sign In */,
+                                          '8lsxlbi9' /* Giriş Yap */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium

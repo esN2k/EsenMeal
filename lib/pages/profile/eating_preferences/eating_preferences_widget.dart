@@ -76,7 +76,7 @@ class _EatingPreferencesWidgetState extends State<EatingPreferencesWidget> {
                             const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            '8qqy010q' /* Eating Preferences */,
+                            '8qqy010q' /* Yemek Tercihleri */,
                           ),
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
@@ -189,7 +189,7 @@ class _EatingPreferencesWidgetState extends State<EatingPreferencesWidget> {
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'ff5kww42' /* Diet */,
+                                                    'ff5kww42' /* Diyet */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -284,7 +284,7 @@ class _EatingPreferencesWidgetState extends State<EatingPreferencesWidget> {
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'rr9egqgr' /* Allergens */,
+                                                    'rr9egqgr' /* Alerjenler */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -379,7 +379,7 @@ class _EatingPreferencesWidgetState extends State<EatingPreferencesWidget> {
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'eqsljcfa' /* Disliked Ingredients */,
+                                                    'eqsljcfa' /* Beğenmediğiniz Malzemeler */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)

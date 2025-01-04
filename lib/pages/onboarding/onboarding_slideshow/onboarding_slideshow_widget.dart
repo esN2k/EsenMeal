@@ -286,8 +286,8 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'qaffj8g9' /* Local, Customized
-Meal Plannin... */
+                                                    'qaffj8g9' /* Yerel, Özelleştirilmiş
+Yemek P... */
                                                     ,
                                                   ),
                                                   textAlign: TextAlign.center,
@@ -328,7 +328,7 @@ Meal Plannin... */
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'dvq8k6lg' /* Create your own customized mea... */,
+                                                    'dvq8k6lg' /* Sağlıklı yemek seçeneklerimiz ... */,
                                                   ),
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
@@ -364,7 +364,7 @@ Meal Plannin... */
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'lt12kdpa' /* Delicious and Nutritious Fresh... */,
+                                                    'lt12kdpa' /* Lezzetli ve Besleyici Taze Yem... */,
                                                   ),
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
@@ -404,7 +404,7 @@ Meal Plannin... */
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'afqq2gek' /* Enjoy healthy and delicious me... */,
+                                                    'afqq2gek' /* Taze, yüksek kaliteli malzemel... */,
                                                   ),
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
@@ -440,8 +440,8 @@ Meal Plannin... */
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'tmze9jvy' /* Gourmet Quality,
-Hassle-Free */
+                                                    'tmze9jvy' /* Gurme Kalitesi,
+Sorunsuz */
                                                     ,
                                                   ),
                                                   textAlign: TextAlign.center,
@@ -482,7 +482,7 @@ Hassle-Free */
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    '9yy6vzec' /* Savor chef-inspired meals with... */,
+                                                    '9yy6vzec' /* Gurme yemek dağıtım hizmetimiz... */,
                                                   ),
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
@@ -570,7 +570,7 @@ Hassle-Free */
                           child: FFButtonWidget(
                             onPressed: () async {
                               logFirebaseEvent(
-                                  'ONBOARDING_SLIDESHOW_CONTINUE_BTN_ON_TAP');
+                                  'ONBOARDING_SLIDESHOW_DEVAM_ET_BTN_ON_TAP');
                               if (_model.pageViewCurrentIndex == 2) {
                                 logFirebaseEvent('Button_haptic_feedback');
                                 HapticFeedback.lightImpact();
@@ -588,7 +588,7 @@ Hassle-Free */
                               }
                             },
                             text: FFLocalizations.of(context).getText(
-                              'ad9tk3z8' /* Continue */,
+                              'ad9tk3z8' /* Devam et */,
                             ),
                             options: FFButtonOptions(
                               width: double.infinity,

@@ -18,7 +18,7 @@ class OnboardingCreateAccountModel
   String? _fullNameTextControllerValidator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        'm4lppm7g' /* Full name is required. */,
+        'm4lppm7g' /* Tam isim gereklidir. */,
       );
     }
 
@@ -33,7 +33,7 @@ class OnboardingCreateAccountModel
       BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        'iyd781wa' /* Email is required. */,
+        'iyd781wa' /* E-posta gereklidir. */,
       );
     }
 
@@ -51,7 +51,7 @@ class OnboardingCreateAccountModel
   String? _passwordTextControllerValidator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        'dtyrqbhc' /* Password is required. */,
+        'dtyrqbhc' /* Şifre gereklidir. */,
       );
     }
 

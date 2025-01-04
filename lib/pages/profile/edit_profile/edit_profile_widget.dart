@@ -99,7 +99,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            'h5o4ato9' /* Edit Profile */,
+                            'h5o4ato9' /* Profil Düzenle */,
                           ),
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
@@ -129,7 +129,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                       0.0, 0.0, 0.0, 4.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      '3o2812gv' /* Full Name */,
+                                      '3o2812gv' /* Ad Soyad */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
@@ -255,7 +255,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                         child: FFButtonWidget(
                           onPressed: () async {
                             logFirebaseEvent(
-                                'EDIT_PROFILE_RESET_PASSWORD_BTN_ON_TAP');
+                                'EDIT_PROFILE_IFRE_SIFIRLAMA_BTN_ON_TAP');
                             logFirebaseEvent('Button_auth');
                             if (_model
                                 .emailAddressTextController.text.isEmpty) {
@@ -274,7 +274,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             );
                           },
                           text: FFLocalizations.of(context).getText(
-                            'hr2y9oa3' /* Reset Password */,
+                            'hr2y9oa3' /* Şifre Sıfırlama */,
                           ),
                           options: FFButtonOptions(
                             width: double.infinity,
@@ -321,7 +321,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                         child: FFButtonWidget(
                           onPressed: () async {
                             logFirebaseEvent(
-                                'EDIT_PROFILE_DELETE_ACCOUNT_BTN_ON_TAP');
+                                'EDIT_PROFILE_PAGE_HESABI_SIL_BTN_ON_TAP');
                             logFirebaseEvent('Button_auth');
                             await authManager.deleteUser(context);
                             logFirebaseEvent('Button_navigate_to');
@@ -338,7 +338,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             );
                           },
                           text: FFLocalizations.of(context).getText(
-                            'q3h3nqv8' /* Delete Account */,
+                            'q3h3nqv8' /* Hesabı Sil */,
                           ),
                           options: FFButtonOptions(
                             width: double.infinity,

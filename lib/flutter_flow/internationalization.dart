@@ -13,7 +13,7 @@ class FFLocalizations {
   static FFLocalizations of(BuildContext context) =>
       Localizations.of<FFLocalizations>(context, FFLocalizations)!;
 
-  static List<String> languages() => ['en', 'tr'];
+  static List<String> languages() => ['tr', 'en'];
 
   static late SharedPreferences _prefs;
   static Future initialize() async =>
@@ -38,10 +38,10 @@ class FFLocalizations {
       (kTranslationsMap[key] ?? {})[locale.toString()] ?? '';
 
   String getVariableText({
-    String? enText = '',
     String? trText = '',
+    String? enText = '',
   }) =>
-      [enText, trText][languageIndex] ?? '';
+      [trText, enText][languageIndex] ?? '';
 
   static const Set<String> _languagesWithShortCode = {
     'ar',
@@ -147,578 +147,579 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // Splash
   {
     'ftlk10x5': {
+      'tr': 'Esen',
       'en': 'Esen',
-      'tr': 'Yemek',
     },
     'xhhiwnms': {
+      'tr': 'Meal',
       'en': 'Meal',
-      'tr': 'Planlayıcı',
     },
     '31v5xhd9': {
-      'en': 'Get Started',
-      'tr': 'Başlayın',
+      'tr': 'Başlayalım',
+      'en': 'Let\'s get started',
     },
     '4wjpihri': {
-      'en': 'Already a member?  ',
-      'tr': 'Zaten üye misiniz?',
+      'tr': 'Üye Misin?',
+      'en': 'Are you a member?',
     },
     '8lsxlbi9': {
-      'en': 'Sign In',
-      'tr': 'Kayıt olmak',
+      'tr': 'Giriş Yap',
+      'en': 'Login',
     },
     '98afmct9': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // SignIn
   {
     's2vy008c': {
-      'en': 'Sign In',
-      'tr': 'Kayıt olmak',
+      'tr': 'Giriş Yap',
+      'en': 'Login',
     },
     'j3xrk9jj': {
-      'en': 'Email',
       'tr': 'E-posta',
+      'en': 'Email',
     },
     'enkcecei': {
-      'en': 'tsmith@email.com',
-      'tr': 'tsmith@e-posta.com',
+      'tr': 'dodikbalaman@gmail.com',
+      'en': 'dodikbalaman@gmail.com',
     },
     '55ye3cf8': {
-      'en': 'Password',
       'tr': 'Şifre',
+      'en': 'Password',
     },
     'lhxezft7': {
-      'en': 'password',
       'tr': 'şifre',
+      'en': 'password',
     },
     '2xnd42jl': {
-      'en': 'Email is required.',
       'tr': 'E-posta gereklidir.',
+      'en': 'Email is required.',
     },
     'dj1rve5w': {
-      'en': 'Please choose an option from the dropdown',
       'tr': 'Lütfen açılır menüden bir seçenek seçin',
+      'en': 'Please select an option from the drop-down menu',
     },
     '9tyhbmdw': {
-      'en': 'Passsword is required.',
       'tr': 'Şifre gereklidir.',
+      'en': 'Password is required.',
     },
     '6fhsm0au': {
-      'en': 'Please choose an option from the dropdown',
       'tr': 'Lütfen açılır menüden bir seçenek seçin',
+      'en': 'Please select an option from the drop-down menu',
     },
     '3lhh97lc': {
-      'en': 'Sign In',
-      'tr': 'Kayıt olmak',
+      'tr': 'Giriş Yap',
+      'en': 'Login',
     },
     'ikxbufr4': {
-      'en': 'I don\'t remember my password',
       'tr': 'Şifremi hatırlamıyorum',
+      'en': 'I don\'t remember my password',
     },
     '56rqthk3': {
-      'en': 'Don\'t have an account yet?',
       'tr': 'Henüz bir hesabınız yok mu?',
+      'en': 'Don\'t have an account yet?',
     },
     'm18p91z9': {
+      'tr': 'Hesap Oluştur',
       'en': 'Create Account',
-      'tr': 'Hesap oluşturmak',
     },
     'nnh5sv0f': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // Onboarding_Slideshow
   {
     'qaffj8g9': {
+      'tr': 'Yerel, Özelleştirilmiş\nYemek Planlama',
       'en': 'Local, Customized\nMeal Planning',
-      'tr': 'Yerel, Özelleştirilmiş\nYemek Planlaması',
     },
     'dvq8k6lg': {
-      'en':
-          'Create your own customized meal plan from our selection of healthy meal options.',
       'tr':
-          'Sağlıklı yemek seçeneklerimizden kendi kişiselleştirilmiş yemek planınızı oluşturun.',
+          'Sağlıklı yemek seçeneklerimiz arasından kendi özelleştirilmiş yemek planınızı oluşturun.',
+      'en':
+          'Create your own customized meal plan from our selection of healthy meals.',
     },
     'lt12kdpa': {
-      'en': 'Delicious and Nutritious Fresh Meals',
       'tr': 'Lezzetli ve Besleyici Taze Yemekler',
+      'en': 'Delicious and Nutritious Fresh Meals',
     },
     'afqq2gek': {
-      'en':
-          'Enjoy healthy and delicious meals delivered to your doorstep, prepared with fresh, high-quality ingredients.',
       'tr':
-          'Taze ve kaliteli malzemelerle hazırlanan sağlıklı ve lezzetli yemeklerin tadını kapınıza kadar getirin.',
+          'Taze, yüksek kaliteli malzemelerle hazırlanan, kapınıza kadar teslim edilen sağlıklı ve lezzetli yemeklerin tadını çıkarın.',
+      'en':
+          'Enjoy healthy and delicious meals made with fresh, high-quality ingredients, delivered right to your door.',
     },
     'tmze9jvy': {
-      'en': 'Gourmet Quality,\nHassle-Free',
-      'tr': 'Gurme Kalitesi,\nZahmetsiz',
+      'tr': 'Gurme Kalitesi,\nSorunsuz',
+      'en': 'Gourmet Quality,\nProblem-Free',
     },
     '9yy6vzec': {
-      'en':
-          'Savor chef-inspired meals without the hassle of cooking or cleaning up, with our gourmet meal delivery service.',
       'tr':
-          'Gurme yemek dağıtım hizmetimizle, yemek pişirme veya temizlik zahmetine girmeden şeflerin elinden çıkmış yemeklerin tadını çıkarın.',
+          'Gurme yemek dağıtım hizmetimizle, yemek pişirme veya temizlik zahmetine girmeden şeften ilham alan yemeklerin tadını çıkarın.',
+      'en':
+          'Enjoy chef-inspired meals without the hassle of cooking or cleanup with our gourmet meal delivery service.',
     },
     'ad9tk3z8': {
+      'tr': 'Devam et',
       'en': 'Continue',
-      'tr': 'Devam etmek',
     },
     '6drb072m': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // Onboarding_CreateAccount
   {
     'd9kxnl4m': {
+      'tr': 'Create an account',
       'en': 'Create an account',
-      'tr': 'Bir hesap oluşturun',
     },
     'dbt4iqx9': {
-      'en': 'Full Name',
       'tr': 'Ad Soyad',
+      'en': 'Name Surname',
     },
     '23mqq1h9': {
-      'en': 'Email',
       'tr': 'E-posta',
+      'en': 'Email',
     },
     '4hfqujz1': {
-      'en': 'Password',
       'tr': 'Şifre',
+      'en': 'Password',
     },
     'm4lppm7g': {
+      'tr': 'Tam isim gereklidir.',
       'en': 'Full name is required.',
-      'tr': 'Tam adınız zorunludur.',
     },
     'lk9f96e1': {
-      'en': 'Please choose an option from the dropdown',
       'tr': 'Lütfen açılır menüden bir seçenek seçin',
+      'en': 'Please select an option from the drop-down menu',
     },
     'iyd781wa': {
-      'en': 'Email is required.',
       'tr': 'E-posta gereklidir.',
+      'en': 'Email is required.',
     },
     '3b93m7va': {
-      'en': 'Please choose an option from the dropdown',
       'tr': 'Lütfen açılır menüden bir seçenek seçin',
+      'en': 'Please select an option from the drop-down menu',
     },
     'dtyrqbhc': {
-      'en': 'Password is required.',
       'tr': 'Şifre gereklidir.',
+      'en': 'Password is required.',
     },
     '1woik12o': {
-      'en': 'Please choose an option from the dropdown',
       'tr': 'Lütfen açılır menüden bir seçenek seçin',
+      'en': 'Please select an option from the drop-down menu',
     },
     'dq9psavc': {
+      'tr': 'Hesap Oluştur',
       'en': 'Create Account',
-      'tr': 'Hesap oluşturmak',
     },
     '6ongsqy2': {
-      'en': 'By clicking \"Create Account,\" you agree to MealPlanner\'s ',
-      'tr': '\"Hesap Oluştur\"a tıklayarak MealPlanner\'ın',
+      'tr': '“Hesap Oluştur” seçeneğine tıklayarak EsenMeal\'ın',
+      'en':
+          'By clicking on the “Create Account” option, you can sign up for EsenMeal',
     },
     '2pblnw75': {
+      'tr': 'Kullanım Koşulları',
       'en': 'Terms of Use',
-      'tr': 'Kullanım Şartları',
     },
     'bhixtav8': {
-      'en': '.',
       'tr': '.',
+      'en': '.',
     },
     'v86fzc5i': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // Dashboard
   {
     'c4t4o3xf': {
-      'en': 'This week\'s meals',
       'tr': 'Bu haftanın yemekleri',
+      'en': 'This week\'s dishes',
     },
     'ypkv73np': {
-      'en': 'Made to order with fresh ingredients each week.',
-      'tr': 'Her hafta taze malzemelerle sipariş üzerine hazırlanıyor.',
+      'tr': 'Her hafta taze malzemelerle sipariş üzerine yapılır.',
+      'en': 'Made to order with fresh ingredients every week.',
     },
     '8hmmat3d': {
-      'en': 'Meals',
       'tr': 'Yemekler',
+      'en': 'Foods',
     },
   },
   // MealDetails
   {
     'p7j8y38u': {
-      'en': 'Ingredients',
-      'tr': 'İçindekiler',
+      'tr': 'Malzemeler',
+      'en': 'Materials',
     },
     'pobcme6j': {
-      'en': 'Allergens',
       'tr': 'Alerjenler',
+      'en': 'Allergens',
     },
     'mjqhhvq9': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // Profile
   {
     'c3kv9o0d': {
+      'tr': 'Bizi desteklediğiniz için teşekkür ederiz!',
       'en': 'Thank you for supporting us!',
-      'tr': 'Desteğiniz için teşekkür ederiz!',
     },
     'kgh51cuf': {
-      'en':
-          'As a local business, we thank you for supporting us and hope you enjoy.',
       'tr':
-          'Yerel bir işletme olarak bize verdiğiniz destekten dolayı teşekkür eder, keyifli vakit geçirmenizi dileriz.',
+          'Bizim gibi bir yerel işletmeyi desteklediğiniz için teşekkür eder, iyi eğlenceler dileriz.',
+      'en':
+          'Thank you for supporting a local business like us and we hope you have fun.',
     },
     'ircptpp9': {
+      'tr': 'Profil Düzenle',
       'en': 'Edit Profile',
-      'tr': 'Profili Düzenle',
     },
     '57x88ouh': {
-      'en': 'Eating Preferences',
-      'tr': 'Yeme Tercihleri',
+      'tr': 'Yemek Tercihleri',
+      'en': 'Food Preferences',
     },
     '0ncruabu': {
-      'en': 'About Us',
       'tr': 'Hakkımızda',
+      'en': 'About Us',
     },
     'lij60voe': {
-      'en': 'Support Center',
       'tr': 'Destek Merkezi',
+      'en': 'Support Center',
     },
     '46uk37z7': {
-      'en': 'Contact Us',
       'tr': 'Bize Ulaşın',
+      'en': 'Contact us',
     },
     'bwl07a9y': {
-      'en': 'Share MealPlanner App',
-      'tr': 'MealPlanner Uygulamasını Paylaş',
+      'tr': 'EsenMeal Uygulamasını Paylaş',
+      'en': 'Share EsenMeal App',
     },
     'tciosm8t': {
-      'en': 'Review in the App Store',
-      'tr': 'App Store\'da inceleme',
+      'tr': 'App Store\'da İncele',
+      'en': 'Check it out on the App Store',
     },
     'gv8a91o1': {
+      'tr': 'Oturumu kapat',
       'en': 'Log out',
-      'tr': 'Çıkış yap',
     },
     'upjxgphb': {
-      'en': 'Profile',
       'tr': 'Profil',
+      'en': 'Profile',
     },
   },
   // EditProfile
   {
     'h5o4ato9': {
+      'tr': 'Profil Düzenle',
       'en': 'Edit Profile',
-      'tr': 'Profili Düzenle',
     },
     '3o2812gv': {
-      'en': 'Full Name',
       'tr': 'Ad Soyad',
+      'en': 'Name Surname',
     },
     'd3n4xbcd': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'ect2f8wa': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'hr2y9oa3': {
-      'en': 'Reset Password',
-      'tr': 'Şifreyi Sıfırla',
+      'tr': 'Şifre Sıfırlama',
+      'en': 'Password Reset',
     },
     'q3h3nqv8': {
-      'en': 'Delete Account',
       'tr': 'Hesabı Sil',
+      'en': 'Delete Account',
     },
     'w5k5wmw2': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // AboutUs
   {
     'bnkxu3y2': {
-      'en': 'About Us',
       'tr': 'Hakkımızda',
+      'en': 'About Us',
     },
     'ldsk4k8r': {
-      'en': 'Your Chefs',
       'tr': 'Şefleriniz',
+      'en': 'Your Chiefs',
     },
     '05h4mca9': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // EatingPreferences
   {
     '8qqy010q': {
-      'en': 'Eating Preferences',
-      'tr': 'Yeme Tercihleri',
+      'tr': 'Yemek Tercihleri',
+      'en': 'Food Preferences',
     },
     'ff5kww42': {
-      'en': 'Diet',
       'tr': 'Diyet',
+      'en': 'Diet',
     },
     'rr9egqgr': {
-      'en': 'Allergens',
       'tr': 'Alerjenler',
+      'en': 'Allergens',
     },
     'eqsljcfa': {
-      'en': 'Disliked Ingredients',
-      'tr': 'Beğenilmeyen Malzemeler',
+      'tr': 'Beğenmediğiniz Malzemeler',
+      'en': 'Ingredients You Don\'t Like',
     },
     'rlvb21id': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // SupportCenter
   {
     'j0taqs22': {
-      'en': 'Support Center',
       'tr': 'Destek Merkezi',
+      'en': 'Support Center',
     },
     'l2n580ow': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // ForgotPassword
   {
     'cm13q2us': {
-      'en': 'Forgot password',
-      'tr': 'Parolanızı mı unuttunuz',
+      'tr': 'Şifremi unuttum',
+      'en': 'I forgot my password',
     },
     'dg7yzmtl': {
-      'en': 'We\'ll send you an email to reset your password.',
       'tr': 'Şifrenizi sıfırlamanız için size bir e-posta göndereceğiz.',
+      'en': 'We will send you an email to reset your password.',
     },
     '4clpr9je': {
-      'en': 'Email',
       'tr': 'E-posta',
+      'en': 'Email',
     },
     'avd910a8': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'ngnxh2hm': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     '6pzz9d4w': {
-      'en': 'Email is required.',
       'tr': 'E-posta gereklidir.',
+      'en': 'Email is required.',
     },
     'sctqhtpn': {
-      'en': 'Please choose an option from the dropdown',
       'tr': 'Lütfen açılır menüden bir seçenek seçin',
+      'en': 'Please select an option from the drop-down menu',
     },
     '41xxuolz': {
-      'en': 'Reset Password',
-      'tr': 'Şifreyi Sıfırla',
+      'tr': 'Şifre Sıfırlama',
+      'en': 'Password Reset',
     },
     'qoxde1fc': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // EditPreferences
   {
     'lu3dj396': {
+      'tr': 'Diyeti güncellE',
       'en': 'Update diet',
-      'tr': 'Diyeti güncelle',
     },
     '3czgpbc4': {
-      'en': 'Update allergies',
-      'tr': 'Alerjileri güncelle',
+      'tr': 'Alerjileri güncelleyin',
+      'en': 'Update on allergies',
     },
     '1d7qfql6': {
-      'en': 'Update dislikes',
-      'tr': 'Beğenilmeyenleri güncelle',
+      'tr': 'Beğenmediklerinizi güncelleyin',
+      'en': 'Update the ones you don\'t like',
     },
     'b1h6hi6e': {
+      'tr': 'Güncelle',
       'en': 'Update',
-      'tr': 'Güncelleme',
     },
     'q6s7j463': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // Onboarding
   {
     'pb7vd1dr': {
-      'en': 'Select your diet',
       'tr': 'Diyetinizi seçin',
+      'en': 'Choose your diet',
     },
     'amodiz20': {
-      'en': 'Any allergies?',
-      'tr': 'Herhangi bir alerjiniz var mı?',
+      'tr': 'Alerjiniz var mı?',
+      'en': 'Do you have allergies?',
     },
     'm7inv3vo': {
-      'en': 'How about dislikes?',
-      'tr': 'Peki ya beğenmeme durumları?',
+      'tr': 'Peki ya sevmedikleriniz?',
+      'en': 'What about the ones you don\'t like?',
     },
     'py1kjc9m': {
+      'tr': 'Devam et',
       'en': 'Continue',
-      'tr': 'Devam etmek',
     },
     'qks3s4xq': {
-      'en': 'Home',
-      'tr': 'Ev',
+      'tr': 'Ana Sayfa',
+      'en': 'Home Page',
     },
   },
   // mealBottomSheet
   {
     'f07s7tjv': {
+      'tr': 'Yemek detaylarını paylaşın',
       'en': 'Share meal details',
-      'tr': 'Yemek ayrıntılarını paylaş',
     },
     '90ogrt1b': {
+      'tr': 'Geri bildirim gönderin',
       'en': 'Send feedback',
-      'tr': 'Geri bildirim gönder',
     },
   },
   // feedbackBottomSheet
   {
     '1yod7mp2': {
+      'tr': 'Send Anonymous Feedback',
       'en': 'Send Anonymous Feedback',
-      'tr': 'Anonim Geri Bildirim Gönder',
     },
     '224uodu6': {
-      'en': 'Type something...',
-      'tr': 'Bir şey yaz...',
+      'tr': 'Type something...',
+      'en': 'Type of thing...',
     },
     'vdzn0jtn': {
+      'tr': 'Feedback is required.',
       'en': 'Feedback is required.',
-      'tr': 'Geri bildirim gerekiyor.',
     },
     'zz097kd4': {
+      'tr': 'Please choose an option from the dropdown',
       'en': 'Please choose an option from the dropdown',
-      'tr': 'Lütfen açılır menüden bir seçenek seçin',
     },
     'd2v8g821': {
+      'tr': 'Send Feedback',
       'en': 'Send Feedback',
-      'tr': 'Geri bildirim gönder',
     },
   },
   // Miscellaneous
   {
     'r1nvfjgp': {
-      'en':
-          'MealPlanner needs to send you notifications about meal updates and other important messages.',
       'tr':
-          'MealPlanner\'ın size yemek güncellemeleri ve diğer önemli mesajlar hakkında bildirimler göndermesi gerekiyor.',
+          'EsenMeal size yemek güncellemeleri ve diğer önemli mesajlar hakkında bildirimler göndermesi gerekir.',
+      'en':
+          'EsenMeal should send you notifications about meal updates and other important messages.',
     },
     'sgqqgscx': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'n92be62l': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     '1ecm4fwf': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'qsk3eku9': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'q8rm2xva': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'uzlgqtgw': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     's9jc94lf': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'ch4pfpm9': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'avz1nxja': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'hzbs5fqj': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'ru9noeet': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'ehkwxexf': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'qhs01vlu': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'alnuvjrk': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'g9d4iu6q': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'kr9uvcb1': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     '0waui4s1': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'tkveptrz': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     '598ndygu': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'c5ztd9b8': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'zkrbpdro': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'jd2pv8zc': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'oy9r5abg': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'hmzlukad': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
     'ymqqblgd': {
-      'en': '',
       'tr': '',
+      'en': '',
     },
   },
 ].reduce((a, b) => a..addAll(b));

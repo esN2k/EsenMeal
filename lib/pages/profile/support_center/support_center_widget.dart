@@ -75,7 +75,7 @@ class _SupportCenterWidgetState extends State<SupportCenterWidget> {
                             const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            'j0taqs22' /* Support Center */,
+                            'j0taqs22' /* Destek Merkezi */,
                           ),
                           style: FlutterFlowTheme.of(context)
                               .displaySmall

@@ -84,7 +84,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                                   0.0, 24.0, 0.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'cm13q2us' /* Forgot password */,
+                                  'cm13q2us' /* Şifremi unuttum */,
                                 ),
                                 style: FlutterFlowTheme.of(context)
                                     .displaySmall
@@ -115,7 +115,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                                       children: [
                                         Text(
                                           FFLocalizations.of(context).getText(
-                                            'dg7yzmtl' /* We'll send you an email to res... */,
+                                            'dg7yzmtl' /* Şifrenizi sıfırlamanız için si... */,
                                           ),
                                           textAlign: TextAlign.start,
                                           style: FlutterFlowTheme.of(context)
@@ -139,7 +139,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                                                   0.0, 15.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              '4clpr9je' /* Email */,
+                                              '4clpr9je' /* E-posta */,
                                             ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
@@ -263,7 +263,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                               child: FFButtonWidget(
                                 onPressed: () async {
                                   logFirebaseEvent(
-                                      'FORGOT_PASSWORD_RESET_PASSWORD_BTN_ON_TA');
+                                      'FORGOT_PASSWORD_IFRE_SIFIRLAMA_BTN_ON_TA');
                                   logFirebaseEvent('Button_haptic_feedback');
                                   HapticFeedback.lightImpact();
                                   logFirebaseEvent('Button_auth');
@@ -287,7 +287,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                                   context.pop();
                                 },
                                 text: FFLocalizations.of(context).getText(
-                                  '41xxuolz' /* Reset Password */,
+                                  '41xxuolz' /* Şifre Sıfırlama */,
                                 ),
                                 options: FFButtonOptions(
                                   width: double.infinity,

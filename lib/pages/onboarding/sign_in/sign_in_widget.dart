@@ -49,11 +49,11 @@ class _SignInWidgetState extends State<SignInWidget> {
     WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {
           _model.emailAddressTextController?.text =
               FFLocalizations.of(context).getText(
-            'enkcecei' /* tsmith@email.com */,
+            'enkcecei' /* dodikbalaman@gmail.com */,
           );
           _model.passwordTextController?.text =
               FFLocalizations.of(context).getText(
-            'lhxezft7' /* password */,
+            'lhxezft7' /* şifre */,
           );
         }));
   }
@@ -110,7 +110,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                 0.0, 24.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                's2vy008c' /* Sign In */,
+                                's2vy008c' /* Giriş Yap */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .displaySmall
@@ -144,7 +144,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                             0.0, 0.0, 0.0, 4.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'j3xrk9jj' /* Email */,
+                                            'j3xrk9jj' /* E-posta */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -253,7 +253,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                             0.0, 0.0, 0.0, 4.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            '55ye3cf8' /* Password */,
+                                            '55ye3cf8' /* Şifre */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -373,7 +373,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                             child: FFButtonWidget(
                               onPressed: () async {
                                 logFirebaseEvent(
-                                    'SIGN_IN_PAGE_SIGN_IN_BTN_ON_TAP');
+                                    'SIGN_IN_PAGE_GIRI_YAP_BTN_ON_TAP');
                                 logFirebaseEvent('Button_haptic_feedback');
                                 HapticFeedback.lightImpact();
                                 logFirebaseEvent('Button_auth');
@@ -392,7 +392,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                     'Dashboard', context.mounted);
                               },
                               text: FFLocalizations.of(context).getText(
-                                '3lhh97lc' /* Sign In */,
+                                '3lhh97lc' /* Giriş Yap */,
                               ),
                               options: FFButtonOptions(
                                 width: double.infinity,
@@ -446,7 +446,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                         0.0, 12.0, 0.0, 12.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'ikxbufr4' /* I don't remember my password */,
+                                        'ikxbufr4' /* Şifremi hatırlamıyorum */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodySmall
@@ -499,7 +499,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                                     0.0, 0.0, 0.0, 12.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    '56rqthk3' /* Don't have an account yet? */,
+                                    '56rqthk3' /* Henüz bir hesabınız yok mu? */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
@@ -517,13 +517,13 @@ class _SignInWidgetState extends State<SignInWidget> {
                               FFButtonWidget(
                                 onPressed: () async {
                                   logFirebaseEvent(
-                                      'SIGN_IN_PAGE_CREATE_ACCOUNT_BTN_ON_TAP');
+                                      'SIGN_IN_PAGE_HESAP_OLUTUR_BTN_ON_TAP');
                                   logFirebaseEvent('Button_navigate_to');
 
                                   context.pushNamed('Onboarding_CreateAccount');
                                 },
                                 text: FFLocalizations.of(context).getText(
-                                  'm18p91z9' /* Create Account */,
+                                  'm18p91z9' /* Hesap Oluştur */,
                                 ),
                                 options: FFButtonOptions(
                                   width: double.infinity,

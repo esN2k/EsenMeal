@@ -135,7 +135,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     children: [
                                       Text(
                                         FFLocalizations.of(context).getText(
-                                          'c3kv9o0d' /* Thank you for supporting us! */,
+                                          'c3kv9o0d' /* Bizi desteklediğiniz için teşe... */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .titleMedium
@@ -157,7 +157,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             0.0, 6.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'kgh51cuf' /* As a local business, we thank ... */,
+                                            'kgh51cuf' /* Bizim gibi bir yerel işletmeyi... */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
@@ -299,7 +299,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          'ircptpp9' /* Edit Profile */,
+                                                          'ircptpp9' /* Profil Düzenle */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(
@@ -389,7 +389,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '57x88ouh' /* Eating Preferences */,
+                                                        '57x88ouh' /* Yemek Tercihleri */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -491,7 +491,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          '0ncruabu' /* About Us */,
+                                                          '0ncruabu' /* Hakkımızda */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(
@@ -578,7 +578,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'lij60voe' /* Support Center */,
+                                                        'lij60voe' /* Destek Merkezi */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -700,7 +700,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          '46uk37z7' /* Contact Us */,
+                                                          '46uk37z7' /* Bize Ulaşın */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(
@@ -832,7 +832,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            'bwl07a9y' /* Share MealPlanner App */,
+                                                            'bwl07a9y' /* EsenMeal Uygulamasını Paylaş */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -953,7 +953,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          'tciosm8t' /* Review in the App Store */,
+                                                          'tciosm8t' /* App Store'da İncele */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(
@@ -1038,7 +1038,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'gv8a91o1' /* Log out */,
+                                                    'gv8a91o1' /* Oturumu kapat */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)

@@ -18,8 +18,8 @@
 	<string>APPL</string>
 	<key>CFBundleLocalizations</key>
 	<array>
-		<string>en</string>
 		<string>tr</string>
+		<string>en</string>
 	</array>
 
 	<key>CFBundleShortVersionString</key>
@@ -33,7 +33,7 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>com.googleusercontent.apps.921473207936-jh1jrn09qai5fvfqi410fhiiaa89dtqd</string>
+                <string>com.googleusercontent.apps.594042224286-urlfdhgdhv8r2ds5un0ur9pc5vn78t0f</string>
                 
             </array>
         </dict>
@@ -60,7 +60,7 @@
 
 
 	<key>PermissionGroupNotification</key>
-    <string>MealPlanner needs to send you notifications about meal updates and other important messages.</string>
+    <string>EsenMeal size yemek güncellemeleri ve diğer önemli mesajlar hakkında bildirimler göndermesi gerekir.</string>
 
 
 	<key>UILaunchStoryboardName</key>

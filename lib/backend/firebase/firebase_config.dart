@@ -5,13 +5,12 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "AIzaSyC60LWWGMOA6bWdiPvXey2E8z5xeSdFuPM",
-            authDomain: "meal-planner-3841f.firebaseapp.com",
-            projectId: "meal-planner-3841f",
-            storageBucket: "meal-planner-3841f.appspot.com",
-            messagingSenderId: "921473207936",
-            appId: "1:921473207936:web:57d3d363b2aeb24d182065",
-            measurementId: "G-V0P4VG9DJX"));
+            apiKey: "AIzaSyA1FcZJ-JURrtALQz3PJNG6-_lSFfrjdUU",
+            authDomain: "esen-meal-ehwrlb.firebaseapp.com",
+            projectId: "esen-meal-ehwrlb",
+            storageBucket: "esen-meal-ehwrlb.firebasestorage.app",
+            messagingSenderId: "594042224286",
+            appId: "1:594042224286:web:27bda2241f65ff2543458f"));
   } else {
     await Firebase.initializeApp();
   }

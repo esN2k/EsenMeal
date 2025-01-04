@@ -131,7 +131,7 @@ class _MealBottomSheetWidgetState extends State<MealBottomSheetWidget> {
                                             18.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'f07s7tjv' /* Share meal details */,
+                                            'f07s7tjv' /* Yemek detaylarını paylaşın */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -220,7 +220,7 @@ class _MealBottomSheetWidgetState extends State<MealBottomSheetWidget> {
                                           18.0, 0.0, 0.0, 0.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          '90ogrt1b' /* Send feedback */,
+                                          '90ogrt1b' /* Geri bildirim gönderin */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium

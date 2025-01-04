@@ -109,7 +109,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                                       0.0, 24.0, 0.0, 24.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      'bnkxu3y2' /* About Us */,
+                                      'bnkxu3y2' /* Hakkımızda */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall
@@ -271,7 +271,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                                       children: [
                                         Text(
                                           FFLocalizations.of(context).getText(
-                                            'ldsk4k8r' /* Your Chefs */,
+                                            'ldsk4k8r' /* Şefleriniz */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .headlineSmall

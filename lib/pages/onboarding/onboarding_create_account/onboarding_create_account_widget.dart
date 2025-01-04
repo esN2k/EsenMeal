@@ -121,7 +121,7 @@ class _OnboardingCreateAccountWidgetState
                                         0.0, 0.0, 0.0, 4.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'dbt4iqx9' /* Full Name */,
+                                        'dbt4iqx9' /* Ad Soyad */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
@@ -224,7 +224,7 @@ class _OnboardingCreateAccountWidgetState
                                         0.0, 0.0, 0.0, 4.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        '23mqq1h9' /* Email */,
+                                        '23mqq1h9' /* E-posta */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
@@ -327,7 +327,7 @@ class _OnboardingCreateAccountWidgetState
                                         0.0, 0.0, 0.0, 4.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        '4hfqujz1' /* Password */,
+                                        '4hfqujz1' /* Şifre */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
@@ -440,7 +440,7 @@ class _OnboardingCreateAccountWidgetState
                         child: FFButtonWidget(
                           onPressed: () async {
                             logFirebaseEvent(
-                                'ONBOARDING_CREATE_ACCOUNT_CREATE_ACCOUNT');
+                                'ONBOARDING_CREATE_ACCOUNT_HESAP_OLUTUR_B');
                             logFirebaseEvent('Button_validate_form');
                             if (_model.formKey.currentState == null ||
                                 !_model.formKey.currentState!.validate()) {
@@ -480,7 +480,7 @@ class _OnboardingCreateAccountWidgetState
                             context.goNamedAuth('Dashboard', context.mounted);
                           },
                           text: FFLocalizations.of(context).getText(
-                            'dq9psavc' /* Create Account */,
+                            'dq9psavc' /* Hesap Oluştur */,
                           ),
                           options: FFButtonOptions(
                             width: double.infinity,
@@ -574,7 +574,7 @@ class _OnboardingCreateAccountWidgetState
                                           TextSpan(
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              '6ongsqy2' /* By clicking "Create Account," ... */,
+                                              '6ongsqy2' /* “Hesap Oluştur” seçeneğine tık... */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
@@ -595,7 +595,7 @@ class _OnboardingCreateAccountWidgetState
                                           TextSpan(
                                             text: FFLocalizations.of(context)
                                                 .getText(
-                                              '2pblnw75' /* Terms of Use */,
+                                              '2pblnw75' /* Kullanım Koşulları */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall

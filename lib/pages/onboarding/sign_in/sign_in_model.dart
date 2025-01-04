@@ -17,7 +17,7 @@ class SignInModel extends FlutterFlowModel<SignInWidget> {
       BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        '2xnd42jl' /* Email is required. */,
+        '2xnd42jl' /* E-posta gereklidir. */,
       );
     }
 
@@ -35,7 +35,7 @@ class SignInModel extends FlutterFlowModel<SignInWidget> {
   String? _passwordTextControllerValidator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        '9tyhbmdw' /* Passsword is required. */,
+        '9tyhbmdw' /* Şifre gereklidir. */,
       );
     }
 

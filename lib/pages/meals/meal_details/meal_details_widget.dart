@@ -385,7 +385,7 @@ class _MealDetailsWidgetState extends State<MealDetailsWidget>
                                         children: [
                                           Text(
                                             FFLocalizations.of(context).getText(
-                                              'p7j8y38u' /* Ingredients */,
+                                              'p7j8y38u' /* Malzemeler */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium
@@ -438,7 +438,7 @@ class _MealDetailsWidgetState extends State<MealDetailsWidget>
                                         children: [
                                           Text(
                                             FFLocalizations.of(context).getText(
-                                              'pobcme6j' /* Allergens */,
+                                              'pobcme6j' /* Alerjenler */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium

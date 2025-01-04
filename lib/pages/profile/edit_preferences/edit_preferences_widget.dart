@@ -166,7 +166,7 @@ class _EditPreferencesWidgetState extends State<EditPreferencesWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'lu3dj396' /* Update diet */,
+                                                  'lu3dj396' /* Diyeti güncellE */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -252,7 +252,7 @@ class _EditPreferencesWidgetState extends State<EditPreferencesWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  '3czgpbc4' /* Update allergies */,
+                                                  '3czgpbc4' /* Alerjileri güncelleyin */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -369,7 +369,7 @@ class _EditPreferencesWidgetState extends State<EditPreferencesWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  '1d7qfql6' /* Update dislikes */,
+                                                  '1d7qfql6' /* Beğenmediklerinizi güncelleyin */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -489,7 +489,7 @@ class _EditPreferencesWidgetState extends State<EditPreferencesWidget> {
                         child: FFButtonWidget(
                           onPressed: () async {
                             logFirebaseEvent(
-                                'EDIT_PREFERENCES_PAGE_UPDATE_BTN_ON_TAP');
+                                'EDIT_PREFERENCES_PAGE_GNCELLE_BTN_ON_TAP');
                             logFirebaseEvent('Button_haptic_feedback');
                             HapticFeedback.lightImpact();
                             logFirebaseEvent('Button_backend_call');
@@ -510,7 +510,7 @@ class _EditPreferencesWidgetState extends State<EditPreferencesWidget> {
                             context.pop();
                           },
                           text: FFLocalizations.of(context).getText(
-                            'b1h6hi6e' /* Update */,
+                            'b1h6hi6e' /* Güncelle */,
                           ),
                           options: FFButtonOptions(
                             width: double.infinity,
